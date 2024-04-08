@@ -1,0 +1,31 @@
+{
+  "name": "weight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --browser all",
+    "test:headed": "playwright test --browser all --headed",
+    "test:firefox": "playwright test --browser firefox",
+    "test:firefox:headed": "playwright test --browser firefox --headed",
+    "test:webkit": "playwright test --browser webkit",
+    "test:webkit:headed": "playwright test --browser webkit --headed",
+    "test:chromium": "playwright test --browser chromium",
+    "test:chromium:headed": "playwright test --browser chromium --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandinooo98/weight-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandinooo98/weight-game/issues"
+  },
+  "homepage": "https://github.com/brandinooo98/weight-game#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "@types/node": "^20.12.5"
+  }
+}
