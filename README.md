@@ -7,6 +7,8 @@ The algorithm used to solve the game is a simple ternary search algorithm which 
 
 1. Clone the repository
 2. Install the dependencies by running `npm install`
+3. Install Playwright CLI tools by running `npx playwright install`
+4. Use a `node` version >= `18.0.0`
 
 I provided a bunch of scripts to provide you with the ability to run the tests in different ways:
 
